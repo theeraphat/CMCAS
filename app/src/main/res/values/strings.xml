@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">ตรวจข้อสอบ</string>
+    <string name="external_storage_path">/CMCAS</string>
+
+    <!-- TextView -->
+    <string name="tv_no_course">ไม่พบรายวิชา</string>
+    <string name="tv_select_course">เลือกรายวิชา</string>
+    <string name="tv_max_score">คะแนนสูงสุด</string>
+    <string name="tv_min_score">คะแนนต่ำสุด</string>
+    <string name="tv_mean_score">คะแนนเฉลี่ย</string>
+    <string name="tv_median_score">มัธยฐาน</string>
+    <string name="tv_mode_score">ฐานนิยม</string>
+    <string name="tv_std_div">ส่วนเบี่ยงเบนฯ</string>
+    <string name="tv_variance">ความแปรปรวน</string>
+
+    <string name="tv_no">ข้อ</string>
+    <string name="tv_percent">%</string>
+    <string name="tv_choice1">ก</string>
+    <string name="tv_choice2">ข</string>
+    <string name="tv_choice3">ค</string>
+    <string name="tv_choice4">ง</string>
+    <string name="tv_choice5">จ</string>
+
+    <!-- Toast -->
+    <string name="how_to_add">กดปุ่มวงกลมด้านล่าง เพื่อเพิ่มรายวิชา</string>
+    <string name="save_success">บันทึกข้อมูลเรียบร้อยแล้ว</string>
+    <string name="del_success">ลบข้อมูลเรียบร้อยแล้ว</string>
+    <string name="exception">เกิดข้อผิดพลาด ! กรุณาลองอีกครั้ง</string>
+    <string name="answer_key_not_set">กรุณาตั้งค่าเฉลยก่อน</string>
+
+    <string name="course_exists">คุณไม่สามารถใช้รหัสวิชานี้ได้</string>
+    <string name="dialog_is_empty">กรุณากรอกข้อมูลให้ครบถ้วน</string>
+
+    <!-- TabHost -->
+    <string name="score_overview">ภาพรวม</string>
+    <string name="score_detail">คะแนน</string>
+    <string name="score_rate">อัตรงการทำถูก</string>
+
+    <!-- Dialog -->
+    <string name="dialog_add_header">เพิ่มรายวิชา</string>
+    <string name="dialog_upd_header">แก้ไขรายวิชา</string>
+    <string name="dialog_del_header">คุณต้องการลบ</string>
+    <string name="dialog_code_hint">รหัสวิชา</string>
+    <string name="dialog_name_hint">ชื่อวิชา</string>
+
+    <!-- List -->
+    <string name="list_code">รหัส</string>
+    <string name="list_first">ชื่อ</string>
+    <string name="list_last">สกุล</string>
+
+    <!-- Button -->
+    <string name="btn_import_csv">นำเข้า CSV</string>
+    <string name="btn_export_csv">ส่งออก CSV</string>
+    <string name="btn_clean">ล้างข้อมูล</string>
+
+    <string name="btn_add">เพิ่ม</string>
+    <string name="btn_save">บันทึก</string>
+    <string name="btn_confirm">ยืนยัน</string>
+    <string name="btn_cancel">ยกเลิก</string>
+
+    <string name="btn_chk_ans">ตรวจคำตอบ</string>
+    <string name="btn_set_ans">ตั้งค่าเฉลย</string>
+
+    <string-array name="array_course_choice">
+        <item>ดูข้อมูล</item>
+        <item>แก้ไข</item>
+        <item>ลบ</item>
+    </string-array>
+
+    <!-- Global -->
+    <string name="score">คะแนน</string>
+    <string name="guess">มั่ว</string>
+    <string name="dash">-</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvDialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp"
+        android:background="@drawable/tv_course"/>
+
+    <EditText
+        android:id="@+id/edtCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_code_hint"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_name_hint"
+        android:padding="10dp" />
+</LinearLayout>

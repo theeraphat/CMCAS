@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_item_no"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/blue"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_percent"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_choice1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_choice2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_choice3"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_choice4"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_item_choice5"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+</LinearLayout>
